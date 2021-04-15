@@ -1,0 +1,28 @@
+{
+    "name": "vue-lite-modal",
+    "version": "0.0.1",
+    "private": false,
+    "scripts": {},
+    "keywords": [
+        "vue-lite-modal",
+        "lite-modal",
+        "modal",
+        "dialog",
+        "vue",
+        "vue3"
+    ],
+    "main": "./src/index.js",
+    "author": "@web677",
+    "license": "MIT",
+    "description": "Vue3 modal dialog",
+    "dependencies": {
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "less": "^3.0.4",
+        "less-loader": "^5.0.0"
+    }
+}
