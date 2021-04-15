@@ -6,7 +6,7 @@ Vue.js modal dialog plugin for vue 3
 
 ```bash
 # npm
-npm install vue-lite-modal
+npm install vue-lite-modal -S
 ```
 
 ## Import
