@@ -10,14 +10,14 @@
                     class="modal-btn"
                     data-action="cancel"
                     @click="close"
-                    >取消</a
+                    >{{ cancelButtonText }}</a
                 >
                 <a
                     href="javascript:void(0);"
                     class="modal-btn"
                     data-action="confirm"
                     @click="close"
-                    >确定</a
+                    >{{ confirmButtonText }}</a
                 >
             </div>
         </div>
@@ -49,11 +49,11 @@ export default {
         },
         cancelButtonText: {
             type: String,
-            default: '取消'
+            default: 'Cancel'
         },
         confirmButtonText: {
             type: String,
-            default: '确定'
+            default: 'Confirm'
         },
         onClose: {
             type: Function,
