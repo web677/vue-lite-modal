@@ -2,6 +2,8 @@
 
 Vue.js modal dialog plugin for vue 3
 
+[vue-lite-toast](https://www.npmjs.com/package/vue-lite-toast) : Vue.js toast notification plugin for vue 3
+
 ## Installation
 
 ```bash
